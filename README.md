@@ -1,6 +1,6 @@
 # fish-npm-scripts-completion
 
-npm + TAB => list of commands available for npm
+npm + TAB => list of commands available for npm  
 npm run + TAB => list of scripts from package.json
 
 # Installation
