@@ -1,9 +1,11 @@
-# fish-npm-scripts-completion
+# [Oficial npm.fish](https://github.com/fish-shell/fish-shell/blob/master/share/completions/npm.fish)
+# This is deprecated.
+## fish-npm-scripts-completion
 
 npm + TAB => list of commands available for npm  
 npm run + TAB => list of scripts from package.json
 
-# Installation
+## Installation
 
 Be sure to have `~/.config/fish/completions` folder and then run:
 `test -f ~/.config/fish/completions/npm.fish;or curl https://raw.githubusercontent.com/sudodoki/fish-npm-scripts-completion/master/npm.fish ~/.config/fish/completions/npm.fish`
@@ -12,6 +14,6 @@ or just download [npm.fish](https://raw.githubusercontent.com/sudodoki/fish-npm-
 
 Restart your fish and it should run.
 
-# Fish versions supported
+## Fish versions supported
 
 Confirmed this is working with fish v2.2.0 (you can get version of fish by running `fish -v`). Had issues with prior version and `complete -e` of arguments (if you want to make it work with fish < 2.2.0 I assume you will need to modify `fish_complete` and `complete -e` each word in string)
